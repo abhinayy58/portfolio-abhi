@@ -5,6 +5,7 @@ import {styles} from '../styles'
 import {experiences} from '../constants'
 import {SectionWrapper} from '../hoc'
 import { textVariant } from "../utils/motion";
+import Abhinay from '../assets/Abhinay Yadav.pdf'
 
 const ExperienceCard = ({experience}) => (
 <VerticalTimelineElement contentStyle={{background:'#1d1836', color:'#fff'}} 
@@ -41,6 +42,15 @@ const Experience = () => {
      <motion.dev variants={textVariant()}>
       <p className={styles.sectionSubText}>What I have done so far</p>
       <h2 className={styles.sectionHeadText}>Work Experience</h2>
+      <a
+     className={styles.sectionSubText}
+        href={Abhinay}
+        download="Abhinay Yadav"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <button>Download my Resume</button>
+      </a>
     </motion.dev>
     <div className="mt-20 flex flex-col">
       <VerticalTimeline>
