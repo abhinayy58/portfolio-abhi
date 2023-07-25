@@ -112,13 +112,9 @@ import {
       icon: git,
     },
     // {
-    //   name: "figma",
-    //   icon: figma,
+    //   name: "docker",
+    //   icon: docker,
     // },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
