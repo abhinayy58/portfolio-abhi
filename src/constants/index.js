@@ -1,7 +1,6 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -9,11 +8,12 @@ import {
     css,
     reactjs,
     redux,
-    tailwind,
+    material,
+    bootstrap,
+    postgres,
     nodejs,
     mongodb,
     git,
-    figma,
     Intership,
     datatemplate,
     Auth,
@@ -84,12 +84,20 @@ import {
       icon: redux,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Material UI",
+      icon: material,
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
     },
     {
       name: "Node JS",
       icon: nodejs,
+    },
+    {
+      name: "PostgreSQL",
+      icon: postgres,
     },
     {
       name: "MongoDB",
@@ -103,10 +111,10 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
     {
       name: "docker",
       icon: docker,
