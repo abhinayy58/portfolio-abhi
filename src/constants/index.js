@@ -87,10 +87,10 @@ import {
       name: "Material UI",
       icon: material,
     },
-    {
-      name: "Bootstrap",
-      icon: bootstrap,
-    },
+    // {
+    //   name: "Bootstrap",
+    //   icon: bootstrap,
+    // },
     {
       name: "Node JS",
       icon: nodejs,
