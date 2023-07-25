@@ -83,18 +83,18 @@ const Navbar = () => {
                   }}
                 >
                   {active === "Resume" ? (
-                <a
-                  className={styles.sectionSubText}
-                  href={Abhinay}
-                  download="Abhinay Yadav"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button>{link.title}</button>
-                </a>
-              ) : (
-                <a href={`#${link.id}`}>{link.title}</a>
-              )}
+                    <a
+                      className={styles.sectionSubText}
+                      href={Abhinay}
+                      download="Abhinay Yadav"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <button>{link.title}</button>
+                    </a>
+                  ) : (
+                    <a href={`#${link.id}`}>{link.title}</a>
+                  )}
                 </li>
               ))}
             </ul>

@@ -16,9 +16,9 @@ import {
     figma,
     Intership,
     datatemplate,
-    carrent,
-    jobit,
-    tripguide,
+    Auth,
+    ecommerce,
+    repair,
     threejs,
     freelancer,
     docker
@@ -196,9 +196,30 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "E-commerce",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Staic Website design for e-commerce which uses core technology like Html, CSS, JavaScript, JQuery and other technology.",
+      tags: [
+        {
+          name: "Html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ecommerce,
+      source_code_link: "https://github.com/abhinayy58/E-commerce",
+    },
+    {
+      name: "Authentication",
+      description:
+        "Cookies-based authentication and authorization for http-only on top of React, Redux, NodeJs and other Technology.",
       tags: [
         {
           name: "react",
@@ -209,54 +230,42 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "node",
           color: "pink-text-gradient",
         },
+        {
+          name: "Cookies",
+          color: "yellow-text-gradient",
+        }
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: Auth,
+      source_code_link: "https://github.com/abhinayy58/Auth",
     },
+   
     {
-      name: "Job IT",
+      name: "Repair Shop",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Repairing shop app where technology used are React, NodeJs Mongo and other Technology where this develop for multi-role based authentication and authorization.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "node",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mongodb",
           color: "pink-text-gradient",
         },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "JWT",
+          color: "yellow-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: repair,
+      source_code_link: "https://github.com/abhinayy58",
     },
   ];
   

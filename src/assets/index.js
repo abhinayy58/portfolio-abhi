@@ -25,9 +25,9 @@ import datatemplate from "./company/DataTemplate.png";
 import freelancer from "./company/freelancer.png";
 import Intership from "./company/intershipstudio.webp";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Auth from "./Auth.png";
+import ecommerce from "./ecommerce.png";
+import repair from "./Repair shop.png";
 
 export {
   logo,
@@ -54,7 +54,7 @@ export {
 datatemplate,
 freelancer,
 Intership,
-  carrent,
-  jobit,
-  tripguide,
+Auth,
+  ecommerce,
+  repair,
 };
