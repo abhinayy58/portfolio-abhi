@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-
+import Abhinay from "../assets/Abhinay Yadav.pdf";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -37,9 +37,23 @@ const Navbar = () => {
               className={`${
                 active === link.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(link.title)}
+              onClick={() => {
+                setActive(link.title);
+              }}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              {active === "Resume" ? (
+                <a
+                  className={styles.sectionSubText}
+                  href={Abhinay}
+                  download="Abhinay Yadav"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button>{link.title}</button>
+                </a>
+              ) : (
+                <a href={`#${link.id}`}>{link.title}</a>
+              )}
             </li>
           ))}
         </ul>
@@ -66,10 +80,21 @@ const Navbar = () => {
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(link.title);
-                    
                   }}
                 >
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  {active === "Resume" ? (
+                <a
+                  className={styles.sectionSubText}
+                  href={Abhinay}
+                  download="Abhinay Yadav"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button>{link.title}</button>
+                </a>
+              ) : (
+                <a href={`#${link.id}`}>{link.title}</a>
+              )}
                 </li>
               ))}
             </ul>
