@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import site from "./site.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -27,6 +28,8 @@ import freelancer from "./company/freelancer.png";
 import Intership from "./company/intershipstudio.webp";
 
 import Auth from "./Auth.png";
+import dashboard from "./dashboard.png";
+import roombooking from "./roombooking.png";
 import ecommerce from "./ecommerce.png";
 import repair from "./Repair shop.png";
 
@@ -59,4 +62,7 @@ Intership,
 Auth,
   ecommerce,
   repair,
+  dashboard,
+  site,
+  roombooking,
 };

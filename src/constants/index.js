@@ -17,11 +17,13 @@ import {
     Intership,
     datatemplate,
     Auth,
+    dashboard,
     ecommerce,
     repair,
     threejs,
     freelancer,
-    docker
+    docker,
+    roombooking,
   } from "../assets";
   
   export const navLinks = [
@@ -218,7 +220,8 @@ import {
         },
       ],
       image: ecommerce,
-      source_code_link: "https://github.com/abhinayy58/E-commerce",
+      site_link: "https://project.abhinayy48.repl.co/",
+      source_code_link:"https://github.com/abhinayy58/E-commerce"
     },
     {
       name: "Authentication",
@@ -270,6 +273,56 @@ import {
       ],
       image: repair,
       source_code_link: "https://github.com/abhinayy58",
+    },
+    {
+      name: "Dashboard",
+      description:
+        "Admin dashboard for front-end using technologies like Reactjs, typescript, and ChartJs.",
+      tags: [
+        {
+          name: "react",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "chartJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "yellow-text-gradient",
+        }
+      ],
+      image: dashboard,
+      site_link: "https://dashboardassign.netlify.app/",
+      source_code_link: "https://github.com/abhinayy58/assignment",
+    },  {
+      name: "Room Booking",
+      description:
+        "Room booking app(Basic) used technogies are React, Nodejs, Javascript, and MongoDB.",
+      tags: [
+        {
+          name: "react",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Nodejs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "mongoDB",
+          color: "green-text-gradient",
+        }
+      ],
+      image: roombooking,
+      source_code_link: "https://github.com/abhinayy58/assignment",
     },
   ];
   
