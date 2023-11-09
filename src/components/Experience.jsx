@@ -5,7 +5,7 @@ import {styles} from '../styles'
 import {experiences} from '../constants'
 import {SectionWrapper} from '../hoc'
 import { textVariant } from "../utils/motion";
-import Abhinay from '../assets/Abhinay Yadav.pdf'
+import Abhinay from '../assets/Software Developer.pdf'
 
 const ExperienceCard = ({experience}) => (
 <VerticalTimelineElement contentStyle={{background:'#1d1836', color:'#fff'}} 
