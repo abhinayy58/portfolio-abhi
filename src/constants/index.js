@@ -322,7 +322,7 @@ import {
         }
       ],
       image: roombooking,
-      source_code_link: "https://github.com/abhinayy58/assignment",
+      source_code_link: "https://github.com/abhinayy58/room-booking/tree/main/backend",
     },
   ];
   
