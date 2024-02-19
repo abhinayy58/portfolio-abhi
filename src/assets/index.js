@@ -32,6 +32,7 @@ import dashboard from "./dashboard.png";
 import roombooking from "./roombooking.png";
 import ecommerce from "./ecommerce.png";
 import repair from "./Repair shop.png";
+import chatApp from "./chatApp.png";
 
 export {
   logo,
@@ -65,4 +66,5 @@ Auth,
   dashboard,
   site,
   roombooking,
+  chatApp
 };
