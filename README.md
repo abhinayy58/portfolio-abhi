@@ -1,8 +1,38 @@
-# React + Vite
+## 🌟 About the Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Abhinay Connect — Your Gateway to My Work
 
-Currently, two official plugins are available:
+**Abhinay Connect** is a sleek, responsive **portfolio website** designed and developed using **React**, **Vite**, and **Tailwind CSS**. It serves as a central hub to showcase my background as a **Full-Stack Web Developer** with hands-on experience in modern web technologies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo:** [https://abhinayconnect.netlify.app](https://abhinayconnect.netlify.app)
+
+---
+
+### ✨ Key Features
+
+- 🚀 **Modern Tech Stack:** React + Vite for speed and developer experience
+- 🎨 **Tailwind CSS:** Clean and responsive styling with utility-first design
+- 💼 **Portfolio Showcase:** Projects, skills, and experience all in one place
+- 🌍 **Social Integration:** GitHub, LinkedIn, Instagram, and email links
+- 📱 **Fully Responsive:** Optimized for desktop, tablet, and mobile devices
+- ⚡ **Fast & Lightweight:** Hosted on Netlify for high performance
+
+---
+
+## 🛠️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/abhinayy58/portfolio-abhi.git
+cd portfolio-abhi
+
+```markdown
+### 2. Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
