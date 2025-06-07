@@ -25,6 +25,7 @@ import {
   freelancer,
   docker,
   roombooking,
+  MetazDigital
 } from "../assets";
 
 export const navLinks = [
@@ -134,18 +135,6 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack Development",
-    company_name: "Freelancer",
-    icon: freelancer,
-    iconBg: "#E6DEDD",
-    date: "Sep 2021 - Mar 2023",
-    points: [
-      "As a freelancer, I deliver high-quality work across various industries, utilizing my expertise in creative problem-solving to achieve exceptional results for my clients.",
-      "I actively contribute to open-source projects, leveraging my expertise to improve code quality and collaborate with the community to create impactful and accessible software solutions.",
-      "As a freelancer, I excel in upgrading Node.js backend versions, ensuring smooth transitions and enhanced performance to keep web applications up-to-date and optimized.",
-    ],
-  },
-  {
     title: "Open source Developer",
     company_name: "Data Template",
     icon: datatemplate,
@@ -159,19 +148,31 @@ const experiences = [
       "Participating in  estimating the time required for developing a project.",
     ],
   },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Full Stack Development",
+    company_name: "Freelancer",
+    icon: freelancer,
+    iconBg: "#E6DEDD",
+    date: "Dec 2023 - Aug 2024",
+    points: [
+      "As a freelancer, I deliver high-quality work across various industries, utilizing my expertise in creative problem-solving to achieve exceptional results for my clients.",
+      "I actively contribute to open-source projects, leveraging my expertise to improve code quality and collaborate with the community to create impactful and accessible software solutions.",
+      "As a freelancer, I excel in upgrading Node.js backend versions, ensuring smooth transitions and enhanced performance to keep web applications up-to-date and optimized.",
+    ],
+  },
+  {
+    title: "Backend Developer",
+    company_name: "MetaZ Digital",
+    icon: MetazDigital,
+    iconBg: "#1f1f1f",
+    date: "Sep 2024 - Present",
+    points: [
+      "Developed and maintained Node.js server-side applications with a focus on high performance and scalability.",
+      "Added new modules and enhanced existing functionality based on evolving business needs.",
+      "Used JSON for data exchange between frontend and backend, improving communication efficiency.",
+      "Employed Git for version control and team collaboration within an Agile development framework.",
+    ],
+  },
 ];
 
 const testimonials = [

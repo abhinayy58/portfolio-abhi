@@ -26,7 +26,7 @@ import threejs from "./tech/threejs.svg";
 import datatemplate from "./company/DataTemplate.png";
 import freelancer from "./company/freelancer.png";
 import Intership from "./company/intershipstudio.webp";
-
+import MetazDigital from "./company/MetaZ-Logo.svg";
 import Auth from "./Auth.png";
 import dashboard from "./dashboard.png";
 import roombooking from "./roombooking.png";
@@ -66,5 +66,6 @@ Auth,
   dashboard,
   site,
   roombooking,
-  chatApp
+  chatApp,
+  MetazDigital
 };

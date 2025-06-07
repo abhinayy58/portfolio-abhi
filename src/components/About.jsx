@@ -37,23 +37,30 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-    <motion.dev variants={textVariant()}>
-      <p className={styles.sectionSubText}>Introduction</p>
-      <h2 className={styles.sectionHeadText}>Overview</h2>
-    </motion.dev>
-    <motion.p variants={fadeIn("", "", 0.1, 1)}
-    className='mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]'
-    >
-    Having 1+ Year Of Experience As A Web Developer Specializing In Front-End Development.
-    Experienced With All Stages Of The Development Cycle For Web Projects. Well-Versed In Numerous Programming Languages Including HTML5, CSS, Typescript, JavaScript, Nodejs, MongoDB, And Postgres.
-    </motion.p>
-    <div className='mt-20 flex flex-wrap gap-10'>
-      {services.map((service, index) => (
-        <ServiceCard key={service.title} index={index} {...service} />
-      ))}
-    </div>
+      <motion.dev variants={textVariant()}>
+        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
+      </motion.dev>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]"
+      >
+        Full-Stack Web Developer with 2 years of comprehensive experience in
+        end-to-end web application development. Skilled in front-end
+        technologies <b>(HTML5, CSS3, JavaScript, TypeScript, React)</b> and back-end
+        development <b>(Node.js, MongoDB, PostgreSQL)</b>. Demonstrated
+        expertise in building responsive, user-centric applications and
+        delivering scalable solutions throughout the complete development
+        lifecycle. Strong problem-solving abilities with a focus on code quality
+        and performance optimization.
+      </motion.p>
+      <div className="mt-20 flex flex-wrap gap-10">
+        {services.map((service, index) => (
+          <ServiceCard key={service.title} index={index} {...service} />
+        ))}
+      </div>
     </>
-  )
+  );
 }
 
 export default SectionWrapper(About, 'about')
