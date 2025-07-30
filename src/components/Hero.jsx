@@ -28,7 +28,7 @@ const Hero = () => {
             </p>
           </div>
           <br /> <br /> <br /> <br /> <br />
-          <div className="flex gap-6 justify-center mt-4 text-white text-5xl">
+          <div className="hidden sm:flex gap-6 justify-center mt-4 text-white text-5xl">
             <a
               href="https://github.com/abhinayy58"
               target="_blank"
@@ -64,11 +64,7 @@ const Hero = () => {
       </div>
       {/* <ComputersCanvas /> */}
 
-      <div
-        className="absolute xs:bottom-10 
-      bottom-32 w-full flex justify-center 
-      items-center"
-      >
+      <div className="hidden px-8 lg:flex absolute bottom-22   lg:bottom-10 w-full justify-end items-center">
         <a href="#about">
           <div
             style={{ borderRadius: "50% 50%" }}
