@@ -25,7 +25,8 @@ import {
   freelancer,
   docker,
   roombooking,
-  MetazDigital
+  MetazDigital,
+  CodeReview
 } from "../assets";
 
 export const navLinks = [
@@ -352,6 +353,31 @@ const projects = [
     image: chatApp,
     site_link: "https://instanttalks.onrender.com/signin",
     source_code_link: "https://github.com/abhinayy58/chat-app",
+  },
+  {
+    name: "Code reviewer",
+    description:
+      "A React app that lets users input JavaScript code and get AI-generated code reviews with syntax highlighting.",
+    tags: [
+      {
+        name: "react",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Gen-AI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: CodeReview,
+    source_code_link: "https://github.com/abhinayy58/Code-Reviewer",
   },
 ];
 
