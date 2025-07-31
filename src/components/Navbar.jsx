@@ -27,10 +27,10 @@ const Navbar = () => {
             alt="Abhinay Insights"
             className="w-40 h-9 object-contain"
           />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+          {/* <p className="hidden sm:block text-white text-[18px] font-bold cursor-pointer">
             Abhinay Yadav &nbsp;
             <span className="sm:block hidden">| Software Developer</span>
-          </p>
+          </p> */}
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
