@@ -5,6 +5,8 @@ import {github,site} from '../assets'
 import {SectionWrapper} from '../hoc'
 import {projects} from '../constants'
 import { fadeIn, textVariant } from "../utils/motion"
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+
 
 const ProjectCard = ({
   index,
@@ -32,28 +34,24 @@ const ProjectCard = ({
             className='w-full h-full object-cover rounded-2xl'
           />
 
-          <div className='absolute inset-0 gap-2 flex justify-end m-3 card-img_hover'>
-          {site_link && <div
-              onClick={() => window.open(site_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={site}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>}
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
-          </div>
+<div className='absolute inset-0 gap-2 flex justify-end m-3 card-img_hover'>
+  {site_link && (
+    <div
+      onClick={() => window.open(site_link, "_blank")}
+      className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+    >
+      <FaExternalLinkAlt className="text-white text-lg" />
+    </div>
+  )}
+
+  <div
+    onClick={() => window.open(source_code_link, "_blank")}
+    className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+  >
+    <FaGithub className="text-white text-xl" />
+  </div>
+</div>
+
         </div>
 
         <div className='mt-5'>
@@ -79,13 +77,13 @@ const ProjectCard = ({
 const Works = () => {
   return (
    <>
-    <motion.dev variants={textVariant()}>
+    <motion.div variants={textVariant()}>
       <p className={styles.sectionSubText}>My work</p>
       <h2 className={styles.sectionHeadText}>Projects</h2>
-    </motion.dev>
+    </motion.div>
     <div className="w-full flex">
   <motion.p variants={fadeIn("", "", 0.1, 1)}
-  className="mt-3 text-secondary text=[17px] max-w-3x1 leading-[30px]"
+  className="mt-3 text-secondary text=[17px] max-w-3xl leading-[30px]"
   >
   Following projects showcases my skills and experience through
           I obtain while learning. Each project is briefly described with

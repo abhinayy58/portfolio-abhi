@@ -34,6 +34,8 @@ import ecommerce from "./ecommerce.png";
 import repair from "./Repair shop.png";
 import chatApp from "./chatApp.png";
 import CodeReview from "./CodeReview.png";
+import mocktail from "./mocktail.png";
+import biccas from "./biccas.png";
 
 export {
   logo,
@@ -58,10 +60,10 @@ export {
   postgres,
   typescript,
   threejs,
-datatemplate,
-freelancer,
-Intership,
-Auth,
+  datatemplate,
+  freelancer,
+  Intership,
+  Auth,
   ecommerce,
   repair,
   dashboard,
@@ -69,5 +71,7 @@ Auth,
   roombooking,
   chatApp,
   MetazDigital,
-  CodeReview
+  CodeReview,
+  mocktail,
+  biccas
 };

@@ -9,7 +9,6 @@ import {
   reactjs,
   redux,
   material,
-  bootstrap,
   postgres,
   nodejs,
   mongodb,
@@ -23,10 +22,11 @@ import {
   repair,
   threejs,
   freelancer,
-  docker,
   roombooking,
   MetazDigital,
   CodeReview
+  ,mocktail,
+  biccas
 } from "../assets";
 
 export const navLinks = [
@@ -288,7 +288,7 @@ const projects = [
       },
       {
         name: "Typescript",
-        color: "green-text-gradient",
+        color: "green-text-gradient",mocktail
       },
       {
         name: "chartJs",
@@ -378,6 +378,58 @@ const projects = [
     ],
     image: CodeReview,
     source_code_link: "https://github.com/abhinayy58/Code-Reviewer",
+  },
+  {
+    name: "Mocktail React App",
+    description:
+      "A React app that allows users to explore and discover a wide variety of mocktail recipes, complete with ingredients, preparation instructions, and images.",
+    tags: [
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GSAP",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: mocktail,
+    site_link: "https://mocktail-mojo.netlify.app/",
+    source_code_link: "https://github.com/abhinayy58/mocktail-mojo",
+  },
+  {
+    name: "SASS Buisness Website",
+    description:
+      "A SASS business prototype website built with React and Tailwind CSS. hvaing modern design and responsive layout.And also have enhanced user experience.",
+    tags: [
+     {
+        name: "react",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Gen-AI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: biccas,
+    site_link: "https://biccass-app.netlify.app/",
+    source_code_link: "https://github.com/abhinayy58/biccas",
   },
 ];
 
