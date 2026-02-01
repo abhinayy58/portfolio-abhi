@@ -393,11 +393,11 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "Nodejs",
+        name: "glassmorphism",
         color: "yellow-text-gradient",
       },
       {
-        name: "Express",
+        name: "parrallax",
         color: "blue-text-gradient",
       },
     ],
@@ -415,15 +415,15 @@ const projects = [
         color: "yellow-text-gradient",
       },
       {
-        name: "Gen-AI",
+        name: "tailwindCSS",
         color: "pink-text-gradient",
       },
       {
-        name: "Nodejs",
+        name: "react-router-dom",
         color: "green-text-gradient",
       },
       {
-        name: "Express",
+        name: "react-icons",
         color: "orange-text-gradient",
       },
     ],
